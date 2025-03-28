@@ -28,6 +28,6 @@ class Menu {
     }
 
     public boolean estComplet(){
-        return true;
+        return this.entrees.size() > 0 && this.plats_principaux.size() > 0 && this.desserts.size() > 0;
     }
 }

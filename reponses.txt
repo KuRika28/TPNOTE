@@ -13,8 +13,8 @@ Entre master et json il n'y a pas eu de commit commun.
 Avec git status, je peux voir qu'il y a plusieurs fichiers qui n'ont pas été commit (16 fichiers au total). Il est important de les commit car il y a eu un ajout dans le fichier demain_midi.json.
 
 5.
-Avec l'ajout d'un fichier .gitignore. Je met /target dans le fichier pour que git ignore le contenu de ce fichier.
+Avec la commande echo "/target" >> .gitignore, j'ajoute un fichier .gitignore. Je met /target dans le fichier pour que git ignore le contenu de ce fichier.
 
-6. 
+6. Avec la commande mvn test.
 Tout les tests ne passent pas. Ce n'est pas conforme à la démarche TDD.
 Pour que les tests passent, il faut ajouter la méthode estComplet() dans la classe Menu.
