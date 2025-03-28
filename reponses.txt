@@ -6,3 +6,11 @@ Le dernier commit du dépôt a été crée par Joaquin "Joe" Lapin.
 Le commit pour le premier test pour la classe Menu a été introduit le 26 mars 2024.
 
 3.
+Grâce à git log à partir de la branche master je peux voir que le dernier commit commun avec pom_xml a été fait par Bill Canard le 26 Mars: Changement de version de Java dans le pom.xml.
+Entre master et json il n'y a pas eu de commit commun.
+
+4.
+Avec git status, je peux voir qu'il y a plusieurs fichiers qui n'ont pas été commit (16 fichiers au total). Il est important de les commit car il y a eu un ajout dans le fichier demain_midi.json.
+
+5.
+Avec l'ajout d'un fichier .gitignore
