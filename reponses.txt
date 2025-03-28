@@ -18,3 +18,6 @@ Avec la commande echo "/target" >> .gitignore, j'ajoute un fichier .gitignore. J
 6. Avec la commande mvn test.
 Tout les tests ne passent pas. Ce n'est pas conforme à la démarche TDD.
 Pour que les tests passent, il faut ajouter la méthode estComplet() dans la classe Menu.
+
+7.
+Avec un git pull json, j'intégre à la branche master le contenu de la branche json.

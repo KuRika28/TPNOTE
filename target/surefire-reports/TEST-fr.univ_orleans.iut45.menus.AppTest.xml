@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="fr.univ_orleans.iut45.menus.AppTest" time="0.041" tests="3" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="fr.univ_orleans.iut45.menus.AppTest" time="0.042" tests="3" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -12,7 +12,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="FR"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-21-openjdk-amd64/lib"/>
-    <property name="sun.java.command" value="/home/iut45/Etudiants/o22401110/QDVLP/TPNOTE/menus/target/surefire/surefirebooter12376530011130684891.jar /home/iut45/Etudiants/o22401110/QDVLP/TPNOTE/menus/target/surefire 2025-03-28T14-48-17_895-jvmRun1 surefire17157265651039946205tmp surefire_011029197236406540732tmp"/>
+    <property name="sun.java.command" value="/home/iut45/Etudiants/o22401110/QDVLP/TPNOTE/menus/target/surefire/surefirebooter6164063358067427628.jar /home/iut45/Etudiants/o22401110/QDVLP/TPNOTE/menus/target/surefire 2025-03-28T14-55-57_476-jvmRun1 surefire1393512302688014666tmp surefire_015711567171992102205tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/home/iut45/Etudiants/o22401110/QDVLP/TPNOTE/menus/target/test-classes:/home/iut45/Etudiants/o22401110/QDVLP/TPNOTE/menus/target/classes:/home/iut45/Etudiants/o22401110/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/home/iut45/Etudiants/o22401110/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -27,7 +27,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="surefire.real.class.path" value="/home/iut45/Etudiants/o22401110/QDVLP/TPNOTE/menus/target/surefire/surefirebooter12376530011130684891.jar"/>
+    <property name="surefire.real.class.path" value="/home/iut45/Etudiants/o22401110/QDVLP/TPNOTE/menus/target/surefire/surefirebooter6164063358067427628.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.6+7-Ubuntu-124.04.1"/>
     <property name="user.name" value="o22401110"/>
@@ -55,5 +55,5 @@
   </properties>
   <testcase name="testPrixPlats" classname="fr.univ_orleans.iut45.menus.AppTest" time="0.005"/>
   <testcase name="testMenuComplet" classname="fr.univ_orleans.iut45.menus.AppTest" time="0.001"/>
-  <testcase name="testListeEntrees" classname="fr.univ_orleans.iut45.menus.AppTest" time="0"/>
+  <testcase name="testListeEntrees" classname="fr.univ_orleans.iut45.menus.AppTest" time="0.002"/>
 </testsuite>
