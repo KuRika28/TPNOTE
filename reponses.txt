@@ -1,0 +1,8 @@
+1.
+Il y a 3 branches: json, master, pom_xml. Grâce à la commande git branch je peux voir que je suis dans la branche master.
+
+2. Grâce à git log:
+Le dernier commit du dépôt a été crée par Joaquin "Joe" Lapin.
+Le commit pour le premier test pour la classe Menu a été introduit le 26 mars 2024.
+
+3.
