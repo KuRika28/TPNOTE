@@ -26,4 +26,8 @@ class Menu {
     public List<Plat> getDesserts() {
         return this.desserts;
     }
+
+    public boolean estComplet(){
+        return true;
+    }
 }
