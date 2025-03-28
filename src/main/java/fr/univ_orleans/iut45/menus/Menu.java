@@ -29,11 +29,11 @@ class Menu {
     public List<Plat> getDesserts() {
         return this.desserts;
     }
-public static Menu fromJson(Reader r) {
-    Gson gson = new Gson();
-    return gson.fromJson(r, Menu.class);
-}
-public boolean estComplet(){
-    return this.entrees.size() > 0 && this.plats_principaux.size() > 0 && this.desserts.size() > 0;
-}
+    public static Menu fromJson(Reader r) {
+        Gson gson = new Gson();
+        return gson.fromJson(r, Menu.class);
+    }
+    public boolean estComplet(){
+        return this.entrees.size() > 0 && this.plats_principaux.size() > 0 && this.desserts.size() > 0;
+    }
 }
